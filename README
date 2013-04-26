@@ -1,0 +1,17 @@
+Installation Instructions
+--------------------------
+
+1) Clone stephenhardy/dotfiles.git into ~/bin/dotfiles
+
+  > cd ~/bin
+  > git clone git@github.com:stephenhardy/dotfiles.git dotfiles
+
+2) Point ~/.bashrc to our dotfiles/bashrc file
+
+  > echo '. ~/bin/dotfiles/bashrc' >> ~/.bashrc
+
+3) Run the updated .bashrc file
+
+  > . ~/.bashrc
+
+  *** In future you can use the reload (created in dotfiles/bash/aliases) command to source all the dotfiles ***
