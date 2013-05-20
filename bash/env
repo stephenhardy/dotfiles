@@ -1,5 +1,6 @@
 export JAD_HOME='~/jad'
-export PATH=/usr/local/bin:$JAD_HOME:$PATH
+export NPM_HOME='/usr/local/share/npm/bin'
+export PATH=/usr/local/bin:$JAD_HOME:$NPM_HOME:$PATH
 export EDITOR='vim -f'
 
 # tmuxinator configuration
