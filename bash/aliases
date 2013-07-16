@@ -1,6 +1,7 @@
 alias ls="ls -lah"
 alias vim="mvim -v"
 alias reload="source ~/bin/dotfiles/bashrc"
+alias subl="sublime"
 function take() {
     mkdir $1
     cd $1
