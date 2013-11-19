@@ -1,3 +1,4 @@
+export JAVA_HOME=$(/usr/libexec/java_home -v1.7)
 export JAD_HOME='~/jad'
 export NPM_HOME='/usr/local/share/npm/bin'
 export PATH=/usr/local/bin:$JAD_HOME:$NPM_HOME:$PATH
