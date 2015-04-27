@@ -4,6 +4,7 @@ export NPM_HOME='/usr/local/share/npm/bin'
 export PATH=/usr/local/bin:$JAD_HOME:$NPM_HOME:$PATH
 export EDITOR='vim -f'
 export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
+export PATH=~/repos/plotbox/plotbox-cli:$PATH
 
 # tmuxinator configuration
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
